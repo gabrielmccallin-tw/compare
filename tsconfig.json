@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": [
+      "esnext",
+      "DOM",
+      "ScriptHost"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "outDir": "./build",
+    "preserveWatchOutput": true,
+    "sourceMap": true
+  },
+  "include": [
+    "src", "test"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

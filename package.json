@@ -1,0 +1,26 @@
+{
+  "name": "compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpileOnly src/index.ts --inspect=0.0.0.0:9223"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "json-diff": "^0.5.4",
+    "jsonpath": "^1.0.2",
+    "lodash": "^4.17.15",
+    "string-similarity": "^4.0.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.2",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4"
+  }
+}
