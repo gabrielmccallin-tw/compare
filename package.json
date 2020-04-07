@@ -10,17 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/lodash": "^4.14.149",
-    "json-diff": "^0.5.4",
-    "jsonpath": "^1.0.2",
-    "lodash": "^4.17.15",
-    "string-similarity": "^4.0.1",
     "ts-node-dev": "^1.0.0-pre.44",
-    "typescript": "^3.8.2",
-    "xml-js": "^1.6.11",
-    "xml2js": "^0.4.23"
+    "typescript": "^3.8.2"
   },
   "devDependencies": {
-    "@types/node": "^13.7.4"
+    "@types/node": "^13.7.4",
+    "@types/express": "^4.16.1",
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.0",
+    "ts-jest": "^24.0.2"
   }
 }
